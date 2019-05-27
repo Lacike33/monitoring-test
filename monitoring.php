@@ -10,6 +10,15 @@ setTimezone('Europe/Bratislava');
 // Nastav konstanty
 setConst($argv);
 
+// Skontroluj ci uz nebezi script
+checkRunningScript();
+
+// len pre test aby som odchytil beziaci script
+sleep(10);
+
+// koniec scriptu bez najdenej chyby
+logToConsole('success', "Script uspesne dobehol. V logoch sa nenasla ziadna chyba.");
+
 // ********************************************
 //                FUNCTIONS
 // ********************************************
@@ -43,4 +52,17 @@ function setConst($argv)
     define('ERROR_LOG_FILE', $argv[1]);
 
     logToConsole('info', "Vsetky konstanty su uspesne nastavene. Error log monitor moze pokracovat v behu.");
+}
+
+function checkRunningScript() {
+    $runningCount = 0;
+    exec("ps -af",$ps);
+    foreach ($ps as $process) {
+        mb_strpos($process, SCRIPT_NAME) ? $runningCount++ : null;
+        if ($runningCount > 1) {
+            // TODO: dorobit funkciu sendMail($message)
+            logToConsole('error', "Script " . SCRIPT_NAME . " uz bezi. Error log monitor nemoze pokracovat v behu.");
+            exit;
+        }
+    }
 }
