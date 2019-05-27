@@ -19,6 +19,9 @@ sleep(10);
 // Skontroluj ci existuje subor
 checkLogPath();
 
+// Skontroluj velkost log subora
+checkFileSize();
+
 // koniec scriptu bez najdenej chyby
 logToConsole('success', "Script '" . SCRIPT_NAME . "' uspesne dobehol. V logoch sa nenasla ziadna chyba.");
 
@@ -83,5 +86,15 @@ function checkLogPath()
         exit;
     } else {
         logToConsole('info', "Subor s logmi " . ERROR_LOG_FILE . " existuje. Error log monitor moze pokracovat v behu.");
+    }
+}
+
+function checkFileSize()
+{
+    if (filesize(ERROR_LOG_FILE) == 0) {
+        logToConsole('error', "Subor s logmi '" . ERROR_LOG_FILE . "' je prazdny. Error log monitor nemoze pokracovat v behu.");
+        exit;
+    } else {
+        logToConsole('info', "Subor s logmi  '" . ERROR_LOG_FILE . "' ma velkost : " . filesize(ERROR_LOG_FILE) . " bajtov. Error log monitor moze pokracovat v behu.");
     }
 }
