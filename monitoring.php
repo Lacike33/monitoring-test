@@ -16,8 +16,11 @@ checkRunningScript();
 // len pre test aby som odchytil beziaci script
 sleep(10);
 
+// Skontroluj ci existuje subor
+checkLogPath();
+
 // koniec scriptu bez najdenej chyby
-logToConsole('success', "Script uspesne dobehol. V logoch sa nenasla ziadna chyba.");
+logToConsole('success', "Script '" . SCRIPT_NAME . "' uspesne dobehol. V logoch sa nenasla ziadna chyba.");
 
 // ********************************************
 //                FUNCTIONS
@@ -64,5 +67,21 @@ function checkRunningScript() {
             logToConsole('error', "Script " . SCRIPT_NAME . " uz bezi. Error log monitor nemoze pokracovat v behu.");
             exit;
         }
+    }
+}
+
+function checkLogPath()
+{
+    if (!file_exists(ERROR_LOG_FILE)) {
+        logToConsole('error', "Subor s logmi " . ERROR_LOG_FILE . " neexistuje. Error log monitor nemoze pokracovat v behu.");
+        exit;
+    } else if (!is_readable(ERROR_LOG_FILE)) {
+        logToConsole('error', "Subor s logmi " . ERROR_LOG_FILE . " nie je citatelny. Error log monitor nemoze pokracovat v behu.");
+        exit;
+    } else if (!is_writable(ERROR_LOG_FILE)) {
+        logToConsole('error', "Subor s logmi " . ERROR_LOG_FILE . " nie je zapisovatelny. Error log monitor nemoze pokracovat v behu.");
+        exit;
+    } else {
+        logToConsole('info', "Subor s logmi " . ERROR_LOG_FILE . " existuje. Error log monitor moze pokracovat v behu.");
     }
 }
