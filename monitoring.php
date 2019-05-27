@@ -25,8 +25,8 @@ checkFileSize();
 // Hladaj chybove zaznamy v logu
 searchError();
 
-// koniec scriptu bez najdenej chyby
-logToConsole('success', "Script '" . SCRIPT_NAME . "' uspesne dobehol. V logoch sa nenasla ziadna chyba.");
+// koniec scriptu
+logToConsole('done', "Script '" . SCRIPT_NAME . "' uspesne dobehol.");
 
 // ********************************************
 //                FUNCTIONS
@@ -50,7 +50,7 @@ function setConst($argv)
     isset($argv[2]) ? define('ERROR_NOTIFY_EMAIL', $argv[2]) : define('ERROR_NOTIFY_EMAIL', $email);
 
     // Mailova adresa odosielatela
-    define('ERROR_NOTIFY_FROM_EMAIL', 'sender@domain.com');
+    define('ERROR_NOTIFY_FROM_EMAIL', 'monitoring@monitoring-test.com');
     // Meno odosielatela
     define('ERROR_NOTIFY_FROM_NAME', 'PHP Error Log Monitor');
     // Subject emailu
@@ -69,7 +69,6 @@ function checkRunningScript() {
     foreach ($ps as $process) {
         mb_strpos($process, SCRIPT_NAME) ? $runningCount++ : null;
         if ($runningCount > 1) {
-            // TODO: dorobit funkciu sendMail($message)
             logToConsole('error', "Script " . SCRIPT_NAME . " uz bezi. Error log monitor nemoze pokracovat v behu.");
             exit;
         }
@@ -110,9 +109,19 @@ function searchError()
     while ($line = strtoupper(stream_get_line($fp, 1024 * 1024, "\n"))) {
         if (mb_strpos($line, "[ERROR]") !== false) {
             $errorCount++;
-            // sendMail($line)
+             sendMail($line);
         }
     }
     fclose($fp);
     logToConsole('info', "Pocet najdenych chyb : " . $errorCount);
+}
+
+function sendMail($message) {
+    $from = "From: " . ERROR_NOTIFY_FROM_NAME . " <" . ERROR_NOTIFY_FROM_EMAIL . ">";
+    try {
+        mail(ERROR_NOTIFY_EMAIL,ERROR_NOTIFY_SUBJECT,$message,$from);
+        logToConsole('info', "Bol odoslany email s chybou. \n" .$message);
+    } catch (Exception $e) {
+        logToConsole('error', "Nebol odoslany email s chybou z dovodu : " . $e->getMessage() );
+    }
 }
