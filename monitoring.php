@@ -14,13 +14,16 @@ setConst($argv);
 checkRunningScript();
 
 // len pre test aby som odchytil beziaci script
-sleep(10);
+//sleep(10);
 
 // Skontroluj ci existuje subor
 checkLogPath();
 
 // Skontroluj velkost log subora
 checkFileSize();
+
+// Hladaj chybove zaznamy v logu
+searchError();
 
 // koniec scriptu bez najdenej chyby
 logToConsole('success', "Script '" . SCRIPT_NAME . "' uspesne dobehol. V logoch sa nenasla ziadna chyba.");
@@ -97,4 +100,19 @@ function checkFileSize()
     } else {
         logToConsole('info', "Subor s logmi  '" . ERROR_LOG_FILE . "' ma velkost : " . filesize(ERROR_LOG_FILE) . " bajtov. Error log monitor moze pokracovat v behu.");
     }
+}
+
+function searchError()
+{
+    $fp = fopen(ERROR_LOG_FILE, "r+");
+
+    $errorCount = 0;
+    while ($line = strtoupper(stream_get_line($fp, 1024 * 1024, "\n"))) {
+        if (mb_strpos($line, "[ERROR]") !== false) {
+            $errorCount++;
+            // sendMail($line)
+        }
+    }
+    fclose($fp);
+    logToConsole('info', "Pocet najdenych chyb : " . $errorCount);
 }

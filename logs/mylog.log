@@ -1,8 +1,8 @@
-[05-Aug-2018 20:37:01 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function php_info() in /Users/lacike/www/PHP-raw/index.php:3
+[05-Aug-2018 20:37:01 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function php_info() in /Users/lacike/www/PHP-raw/index.php:3
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/PHP-raw/index.php on line 3
-[06-Aug-2018 20:37:50 UTC] PHP Fatal [ERROR]:  Class 'Illuminate\Database\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 5
+[06-Aug-2018 20:37:50 UTC] PHP Fatal [EROR]:  Class 'Illuminate\Database\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 5
 [06-Aug-2018 20:37:50 UTC] PHP Stack trace:
 [06-Aug-2018 20:37:50 UTC] PHP   1. {main}() /Users/lacike/www/shop-reviews/public/index.php:0
 [06-Aug-2018 20:37:50 UTC] PHP   2. App\Http\Kernel->handle() /Users/lacike/www/shop-reviews/public/index.php:55
@@ -57,7 +57,7 @@ Stack trace:
 [06-Aug-2018 20:37:50 UTC] PHP  51. Composer\Autoload\ClassLoader->loadClass() /Users/lacike/www/shop-reviews/routes/web.php:7
 [06-Aug-2018 20:37:50 UTC] PHP  52. Composer\Autoload\includeFile() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:322
 [06-Aug-2018 20:37:50 UTC] PHP  53. include() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:444
-[06-Aug-2018 20:38:03 UTC] PHP Fatal [ERROR]:  Class 'App\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 4
+[06-Aug-2018 20:38:03 UTC] PHP Fatal [EROR]:  Class 'App\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 4
 [06-Aug-2018 20:38:03 UTC] PHP Stack trace:
 [06-Aug-2018 20:38:03 UTC] PHP   1. {main}() /Users/lacike/www/shop-reviews/public/index.php:0
 [06-Aug-2018 20:38:03 UTC] PHP   2. App\Http\Kernel->handle() /Users/lacike/www/shop-reviews/public/index.php:55
@@ -112,7 +112,7 @@ Stack trace:
 [06-Aug-2018 20:38:03 UTC] PHP  51. Composer\Autoload\ClassLoader->loadClass() /Users/lacike/www/shop-reviews/routes/web.php:7
 [06-Aug-2018 20:38:03 UTC] PHP  52. Composer\Autoload\includeFile() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:322
 [06-Aug-2018 20:38:03 UTC] PHP  53. include() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:444
-[06-Aug-2018 20:40:06 UTC] PHP Fatal [ERROR]:  Class 'Illuminate\Database\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 6
+[06-Aug-2018 20:40:06 UTC] PHP Fatal [EROR]:  Class 'Illuminate\Database\Eloquent' not found in /Users/lacike/www/shop-reviews/app/Product.php on line 6
 [06-Aug-2018 20:40:06 UTC] PHP Stack trace:
 [06-Aug-2018 20:40:06 UTC] PHP   1. {main}() /Users/lacike/www/shop-reviews/public/index.php:0
 [06-Aug-2018 20:40:06 UTC] PHP   2. App\Http\Kernel->handle() /Users/lacike/www/shop-reviews/public/index.php:55
@@ -167,7 +167,7 @@ Stack trace:
 [06-Aug-2018 20:40:06 UTC] PHP  51. Composer\Autoload\ClassLoader->loadClass() /Users/lacike/www/shop-reviews/routes/web.php:7
 [06-Aug-2018 20:40:06 UTC] PHP  52. Composer\Autoload\includeFile() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:322
 [06-Aug-2018 20:40:06 UTC] PHP  53. include() /Users/lacike/www/shop-reviews/vendor/composer/ClassLoader.php:444
-[19-Aug-2018 15:15:29 UTC] PHP Fatal [ERROR]:  Cannot use [] for reading in /Users/lacike/www/Larablog/storage/framework/views/ebfaa3352d26d0abe6e3ff9fe4216e9f751e1e13.php on line 27
+[19-Aug-2018 15:15:29 UTC] PHP Fatal [EROR]:  Cannot use [] for reading in /Users/lacike/www/Larablog/storage/framework/views/ebfaa3352d26d0abe6e3ff9fe4216e9f751e1e13.php on line 27
 [19-Aug-2018 15:15:29 UTC] PHP Stack trace:
 [19-Aug-2018 15:15:29 UTC] PHP   1. {main}() /Users/lacike/www/Larablog/public/index.php:0
 [19-Aug-2018 15:15:29 UTC] PHP   2. App\Http\Kernel->handle() /Users/lacike/www/Larablog/public/index.php:55
@@ -233,13 +233,13 @@ Stack trace:
 [01-Oct-2018 21:57:03 UTC] PHP Warning:  require(/Users/lacike/www/eshop/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/eshop/artisan on line 18
 [01-Oct-2018 21:57:03 UTC] PHP Stack trace:
 [01-Oct-2018 21:57:03 UTC] PHP   1. {main}() /Users/lacike/www/eshop/artisan:0
-[01-Oct-2018 21:57:03 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/eshop/artisan on line 18
+[01-Oct-2018 21:57:03 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/eshop/artisan on line 18
 [01-Oct-2018 21:57:03 UTC] PHP Stack trace:
 [01-Oct-2018 21:57:03 UTC] PHP   1. {main}() /Users/lacike/www/eshop/artisan:0
 [01-Oct-2018 21:57:30 UTC] PHP Warning:  require(/Users/lacike/www/eshop/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/eshop/artisan on line 18
 [01-Oct-2018 21:57:30 UTC] PHP Stack trace:
 [01-Oct-2018 21:57:30 UTC] PHP   1. {main}() /Users/lacike/www/eshop/artisan:0
-[01-Oct-2018 21:57:30 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/eshop/artisan on line 18
+[01-Oct-2018 21:57:30 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/eshop/artisan on line 18
 [01-Oct-2018 21:57:30 UTC] PHP Stack trace:
 [01-Oct-2018 21:57:30 UTC] PHP   1. {main}() /Users/lacike/www/eshop/artisan:0
 [06-Oct-2018 13:32:08 UTC] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Applications/MAMP/bin/mamp/feed/fetchFeed.php on line 20
@@ -255,7 +255,7 @@ Stack trace:
 [08-Oct-2018 18:42:02 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:42:02 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
 [08-Oct-2018 18:42:02 UTC] PHP   3. require_once() /Users/lacike/www/PrestaShop/config/config.inc.php:36
-[08-Oct-2018 18:42:02 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
+[08-Oct-2018 18:42:02 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
 [08-Oct-2018 18:42:02 UTC] PHP Stack trace:
 [08-Oct-2018 18:42:02 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:42:02 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
@@ -265,7 +265,7 @@ Stack trace:
 [08-Oct-2018 18:44:02 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:44:02 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
 [08-Oct-2018 18:44:02 UTC] PHP   3. require_once() /Users/lacike/www/PrestaShop/config/config.inc.php:36
-[08-Oct-2018 18:44:02 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
+[08-Oct-2018 18:44:02 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
 [08-Oct-2018 18:44:02 UTC] PHP Stack trace:
 [08-Oct-2018 18:44:02 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:44:02 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
@@ -275,7 +275,7 @@ Stack trace:
 [08-Oct-2018 18:44:08 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:44:08 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
 [08-Oct-2018 18:44:08 UTC] PHP   3. require_once() /Users/lacike/www/PrestaShop/config/config.inc.php:36
-[08-Oct-2018 18:44:08 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
+[08-Oct-2018 18:44:08 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
 [08-Oct-2018 18:44:08 UTC] PHP Stack trace:
 [08-Oct-2018 18:44:08 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:44:08 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
@@ -285,7 +285,7 @@ Stack trace:
 [08-Oct-2018 18:51:05 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:51:05 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
 [08-Oct-2018 18:51:05 UTC] PHP   3. require_once() /Users/lacike/www/PrestaShop/config/config.inc.php:36
-[08-Oct-2018 18:51:05 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
+[08-Oct-2018 18:51:05 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required '/Users/lacike/www/PrestaShop/config/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/PrestaShop/config/autoload.php on line 26
 [08-Oct-2018 18:51:05 UTC] PHP Stack trace:
 [08-Oct-2018 18:51:05 UTC] PHP   1. {main}() /Users/lacike/www/PrestaShop/index.php:0
 [08-Oct-2018 18:51:05 UTC] PHP   2. require() /Users/lacike/www/PrestaShop/index.php:27
@@ -792,7 +792,7 @@ Stack trace:
 [13-Oct-2018 15:08:04 UTC] PHP Stack trace:
 [13-Oct-2018 15:08:04 UTC] PHP   1. {main}() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:0
 [13-Oct-2018 15:08:04 UTC] PHP   2. require() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:27
-[13-Oct-2018 15:08:04 UTC] PHP Fatal [ERROR]:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/dolibarr/htdocs/main.inc.php on line 38
+[13-Oct-2018 15:08:04 UTC] PHP Fatal [EROR]:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/dolibarr/htdocs/main.inc.php on line 38
 [13-Oct-2018 15:08:04 UTC] PHP Stack trace:
 [13-Oct-2018 15:08:04 UTC] PHP   1. {main}() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:0
 [13-Oct-2018 15:08:04 UTC] PHP   2. require() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:27
@@ -800,7 +800,7 @@ Stack trace:
 [13-Oct-2018 15:08:10 UTC] PHP Stack trace:
 [13-Oct-2018 15:08:10 UTC] PHP   1. {main}() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:0
 [13-Oct-2018 15:08:10 UTC] PHP   2. require() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:27
-[13-Oct-2018 15:08:10 UTC] PHP Fatal [ERROR]:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/dolibarr/htdocs/main.inc.php on line 38
+[13-Oct-2018 15:08:10 UTC] PHP Fatal [EROR]:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/dolibarr/htdocs/main.inc.php on line 38
 [13-Oct-2018 15:08:10 UTC] PHP Stack trace:
 [13-Oct-2018 15:08:10 UTC] PHP   1. {main}() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:0
 [13-Oct-2018 15:08:10 UTC] PHP   2. require() /Users/lacike/www/dolibarr/htdocs/adherents/index.php:27
@@ -1414,7 +1414,7 @@ Stack trace:
 [19-Oct-2018 22:14:37 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/modules.php:0
 [19-Oct-2018 22:14:37 UTC] PHP   2. Dolistore->get_next_link() /Users/lacike/www/Zoom/htdocs/admin/modules.php:878
 [19-Oct-2018 22:14:37 UTC] PHP   3. Dolistore->get_next_url() /Users/lacike/www/Zoom/htdocs/admin/dolistore/class/dolistore.class.php:292
-[19-Oct-2018 22:38:49 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined method DolMessagesCollector::sucess() in /Users/lacike/www/Zoom/htdocs/product/card.php:57
+[19-Oct-2018 22:38:49 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined method DolMessagesCollector::sucess() in /Users/lacike/www/Zoom/htdocs/product/card.php:57
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Zoom/htdocs/product/card.php on line 57
@@ -1426,81 +1426,81 @@ Stack trace:
 [19-Oct-2018 22:47:28 UTC] PHP Stack trace:
 [19-Oct-2018 22:47:28 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/user/logout.php:0
 [19-Oct-2018 22:47:28 UTC] PHP   2. session_name() /Users/lacike/www/Zoom/htdocs/user/logout.php:77
-[20-Oct-2018 10:57:11 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to a member function addmessage() on null in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php:657
+[20-Oct-2018 10:57:11 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to a member function addmessage() on null in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php:657
 Stack trace:
 #0 /Users/lacike/www/Zoom/htdocs/core/class/hookmanager.class.php(102): dol_include_once('/debugbar/class...')
 #1 /Users/lacike/www/Zoom/htdocs/main.inc.php(713): HookManager->initHooks(Array)
 #2 /Users/lacike/www/Zoom/htdocs/product/card.php(39): require('/Users/lacike/w...')
 #3 {main}
   thrown in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php on line 657
-[20-Oct-2018 10:57:20 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to a member function addmessage() on null in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php:657
+[20-Oct-2018 10:57:20 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to a member function addmessage() on null in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php:657
 Stack trace:
 #0 /Users/lacike/www/Zoom/htdocs/core/class/hookmanager.class.php(102): dol_include_once('/debugbar/class...')
 #1 /Users/lacike/www/Zoom/htdocs/main.inc.php(713): HookManager->initHooks(Array)
 #2 /Users/lacike/www/Zoom/htdocs/product/index.php(28): require('/Users/lacike/w...')
 #3 {main}
   thrown in /Users/lacike/www/Zoom/htdocs/core/lib/functions.lib.php on line 657
-[20-Oct-2018 10:58:04 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:58:04 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:58:04 UTC] PHP Stack trace:
 [20-Oct-2018 10:58:04 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/product/index.php:0
 [20-Oct-2018 10:58:04 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/product/index.php:28
 [20-Oct-2018 10:58:04 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:58:04 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:58:09 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:58:09 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:58:09 UTC] PHP Stack trace:
 [20-Oct-2018 10:58:09 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/const.php:0
 [20-Oct-2018 10:58:09 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/const.php:27
 [20-Oct-2018 10:58:09 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:58:09 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:59:25 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:59:25 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:59:25 UTC] PHP Stack trace:
 [20-Oct-2018 10:59:25 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/const.php:0
 [20-Oct-2018 10:59:25 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/const.php:27
 [20-Oct-2018 10:59:25 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:59:25 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:59:29 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:59:29 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:59:29 UTC] PHP Stack trace:
 [20-Oct-2018 10:59:29 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/const.php:0
 [20-Oct-2018 10:59:29 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/const.php:27
 [20-Oct-2018 10:59:29 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:59:29 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:59:36 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:59:36 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:59:36 UTC] PHP Stack trace:
 [20-Oct-2018 10:59:36 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/const.php:0
 [20-Oct-2018 10:59:36 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/const.php:27
 [20-Oct-2018 10:59:36 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:59:36 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:59:37 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:59:37 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:59:37 UTC] PHP Stack trace:
 [20-Oct-2018 10:59:37 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 10:59:37 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
 [20-Oct-2018 10:59:37 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:59:37 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 10:59:38 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 10:59:38 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 10:59:38 UTC] PHP Stack trace:
 [20-Oct-2018 10:59:38 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 10:59:38 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
 [20-Oct-2018 10:59:38 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 10:59:38 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 11:00:05 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 11:00:05 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 11:00:05 UTC] PHP Stack trace:
 [20-Oct-2018 11:00:05 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 11:00:05 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
 [20-Oct-2018 11:00:05 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 11:00:05 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 11:00:09 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 11:00:09 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 11:00:09 UTC] PHP Stack trace:
 [20-Oct-2018 11:00:09 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 11:00:09 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
 [20-Oct-2018 11:00:09 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 11:00:09 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 11:00:37 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 11:00:37 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 11:00:37 UTC] PHP Stack trace:
 [20-Oct-2018 11:00:37 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 11:00:37 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
 [20-Oct-2018 11:00:37 UTC] PHP   3. require_once() /Users/lacike/www/Zoom/htdocs/main.inc.php:198
 [20-Oct-2018 11:00:37 UTC] PHP   4. include_once() /Users/lacike/www/Zoom/htdocs/filefunc.inc.php:281
-[20-Oct-2018 11:00:41 UTC] PHP Fatal [ERROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
+[20-Oct-2018 11:00:41 UTC] PHP Fatal [EROR]:  Cannot redeclare test_sql_and_script_inject() (previously declared in /Users/lacike/www/Zoom/htdocs/main.inc.php:78) in /Users/lacike/www/Zoom/htdocs/main.inc.php on line 132
 [20-Oct-2018 11:00:41 UTC] PHP Stack trace:
 [20-Oct-2018 11:00:41 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/admin/index.php:0
 [20-Oct-2018 11:00:41 UTC] PHP   2. require() /Users/lacike/www/Zoom/htdocs/admin/index.php:25
@@ -1510,99 +1510,99 @@ Stack trace:
 [20-Oct-2018 12:22:59 UTC] PHP Stack trace:
 [20-Oct-2018 12:22:59 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/user/logout.php:0
 [20-Oct-2018 12:22:59 UTC] PHP   2. session_name() /Users/lacike/www/Zoom/htdocs/user/logout.php:77
-[21-Oct-2018 09:28:57 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:03 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:05 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:06 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:08 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:20 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:23 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:45 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:47 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:52 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:29:58 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:30:47 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:30:48 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:32:07 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:32:16 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
-[21-Oct-2018 09:32:59 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:28:57 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:03 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:05 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:06 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:08 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:20 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:23 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:45 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:47 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:52 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:29:58 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:30:47 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:30:48 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:32:07 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:32:16 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
+[21-Oct-2018 09:32:59 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 314
 [21-Oct-2018 09:37:50 UTC] PHP Warning:  require(../../main.inc.php): failed to open stream: No such file or directory in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 40
 [21-Oct-2018 09:37:50 UTC] PHP Stack trace:
 [21-Oct-2018 09:37:50 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/compta/index.php:0
 [21-Oct-2018 09:37:50 UTC] PHP   2. require_once() /Users/lacike/www/Zoom/htdocs/compta/index.php:32
-[21-Oct-2018 09:37:50 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '../../main.inc.php' (include_path='/Users/lacike/www/htdocs') in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 40
+[21-Oct-2018 09:37:50 UTC] PHP Fatal [EROR]:  require(): Failed opening required '../../main.inc.php' (include_path='/Users/lacike/www/htdocs') in /Users/lacike/www/Zoom/htdocs/compta/facture/class/facture.class.php on line 40
 [21-Oct-2018 09:37:50 UTC] PHP Stack trace:
 [21-Oct-2018 09:37:50 UTC] PHP   1. {main}() /Users/lacike/www/Zoom/htdocs/compta/index.php:0
 [21-Oct-2018 09:37:50 UTC] PHP   2. require_once() /Users/lacike/www/Zoom/htdocs/compta/index.php:32
 [21-Oct-2018 10:08:55 UTC] PHP Warning:  require(/Users/lacike/www/Larasoccer/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/Larasoccer/artisan on line 18
 [21-Oct-2018 10:08:55 UTC] PHP Stack trace:
 [21-Oct-2018 10:08:55 UTC] PHP   1. {main}() /Users/lacike/www/Larasoccer/artisan:0
-[21-Oct-2018 10:08:55 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/Larasoccer/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Larasoccer/artisan on line 18
+[21-Oct-2018 10:08:55 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/Larasoccer/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Larasoccer/artisan on line 18
 [21-Oct-2018 10:08:55 UTC] PHP Stack trace:
 [21-Oct-2018 10:08:55 UTC] PHP   1. {main}() /Users/lacike/www/Larasoccer/artisan:0
 [21-Oct-2018 10:09:20 UTC] PHP Warning:  require(/Users/lacike/www/Larasoccer/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/Larasoccer/artisan on line 18
 [21-Oct-2018 10:09:20 UTC] PHP Stack trace:
 [21-Oct-2018 10:09:20 UTC] PHP   1. {main}() /Users/lacike/www/Larasoccer/artisan:0
-[21-Oct-2018 10:09:20 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/Larasoccer/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Larasoccer/artisan on line 18
+[21-Oct-2018 10:09:20 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/Larasoccer/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Larasoccer/artisan on line 18
 [21-Oct-2018 10:09:20 UTC] PHP Stack trace:
 [21-Oct-2018 10:09:20 UTC] PHP   1. {main}() /Users/lacike/www/Larasoccer/artisan:0
-[21-Oct-2018 10:59:30 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
+[21-Oct-2018 10:59:30 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/index.php on line 25
-[21-Oct-2018 11:00:57 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
+[21-Oct-2018 11:00:57 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/index.php on line 25
-[21-Oct-2018 11:00:59 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
+[21-Oct-2018 11:00:59 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/index.php on line 25
-[21-Oct-2018 11:01:01 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
+[21-Oct-2018 11:01:01 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/index.php on line 25
-[21-Oct-2018 11:05:07 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:05:07 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 11:05:09 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:05:09 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 11:08:48 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:08:48 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 11:08:50 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:08:50 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 11:12:42 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:12:42 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 11:12:44 UTC] PHP Fatal [ERROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
+[21-Oct-2018 11:12:44 UTC] PHP Fatal [EROR]:  Uncaught Error: Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/install/index.php:25
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/Websoccer/install/index.php on line 25
-[21-Oct-2018 16:59:01 UTC] PHP Fatal [ERROR]:  Uncaught Exception: Missing configuration: authentication_mechanism in /Users/lacike/www/Websoccer/classes/WebSoccer.class.php:68
+[21-Oct-2018 16:59:01 UTC] PHP Fatal [EROR]:  Uncaught Exception: Missing configuration: authentication_mechanism in /Users/lacike/www/Websoccer/classes/WebSoccer.class.php:68
 Stack trace:
 #0 /Users/lacike/www/Websoccer/frontbase.inc.php(35): WebSoccer->getConfig('authentication_...')
 #1 /Users/lacike/www/Websoccer/index.php(25): include('/Users/lacike/w...')
 #2 {main}
   thrown in /Users/lacike/www/Websoccer/classes/WebSoccer.class.php on line 68
-[21-Oct-2018 20:01:27 Europe/Berlin] PHP Fatal [ERROR]:  Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php on line 28
-[21-Oct-2018 20:02:51 Europe/Berlin] PHP Fatal [ERROR]:  Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php on line 23
+[21-Oct-2018 20:01:27 Europe/Berlin] PHP Fatal [EROR]:  Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php on line 28
+[21-Oct-2018 20:02:51 Europe/Berlin] PHP Fatal [EROR]:  Class 'DebugBar\StandardDebugBar' not found in /Users/lacike/www/Websoccer/index.php on line 23
 [21-Oct-2018 20:04:35 Europe/Berlin] PHP Notice:  Undefined variable: debugbar in /Users/lacike/www/Websoccer/index.php on line 22
-[21-Oct-2018 20:04:35 Europe/Berlin] PHP Fatal [ERROR]:  Call to a member function addMessage() on null in /Users/lacike/www/Websoccer/index.php on line 22
-[22-Oct-2018 21:35:08 Europe/Berlin] PHP Parse [ERROR]:  syntax [ERROR], unexpected '?' in /Users/lacike/www/Optika-Zoom/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[21-Oct-2018 20:04:35 Europe/Berlin] PHP Fatal [EROR]:  Call to a member function addMessage() on null in /Users/lacike/www/Websoccer/index.php on line 22
+[22-Oct-2018 21:35:08 Europe/Berlin] PHP Parse [EROR]:  syntax [EROR], unexpected '?' in /Users/lacike/www/Optika-Zoom/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
 [22-Oct-2018 21:35:08 Europe/Berlin] PHP Stack trace:
 [22-Oct-2018 21:35:08 Europe/Berlin] PHP   1. {main}() /Users/lacike/www/Optika-Zoom/public/index.php:0
 [22-Oct-2018 21:35:08 Europe/Berlin] PHP   2. require() /Users/lacike/www/Optika-Zoom/public/index.php:24
 [22-Oct-2018 21:35:08 Europe/Berlin] PHP   3. ComposerAutoloaderInit77b13e91f578965eaaad30b0b9ee01cc::getLoader() /Users/lacike/www/Optika-Zoom/vendor/autoload.php:7
 [22-Oct-2018 21:35:08 Europe/Berlin] PHP   4. composerRequire77b13e91f578965eaaad30b0b9ee01cc() /Users/lacike/www/Optika-Zoom/vendor/composer/autoload_real.php:56
-[22-Oct-2018 21:38:35 Europe/Berlin] PHP Parse [ERROR]:  syntax [ERROR], unexpected '?' in /Users/lacike/www/Optika-Zoom/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Oct-2018 21:38:35 Europe/Berlin] PHP Parse [EROR]:  syntax [EROR], unexpected '?' in /Users/lacike/www/Optika-Zoom/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
 [22-Oct-2018 21:38:35 Europe/Berlin] PHP Stack trace:
 [22-Oct-2018 21:38:35 Europe/Berlin] PHP   1. {main}() /Users/lacike/www/Optika-Zoom/public/index.php:0
 [22-Oct-2018 21:38:35 Europe/Berlin] PHP   2. require() /Users/lacike/www/Optika-Zoom/public/index.php:24
@@ -1640,7 +1640,7 @@ Stack trace:
 [24-Oct-2018 21:38:56 UTC] PHP Stack trace:
 [24-Oct-2018 21:38:56 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:38:56 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
-[24-Oct-2018 21:38:56 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
+[24-Oct-2018 21:38:56 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
 [24-Oct-2018 21:38:56 UTC] PHP Stack trace:
 [24-Oct-2018 21:38:56 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:38:56 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
@@ -1648,7 +1648,7 @@ Stack trace:
 [24-Oct-2018 21:39:09 UTC] PHP Stack trace:
 [24-Oct-2018 21:39:09 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:39:09 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
-[24-Oct-2018 21:39:09 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
+[24-Oct-2018 21:39:09 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
 [24-Oct-2018 21:39:09 UTC] PHP Stack trace:
 [24-Oct-2018 21:39:09 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:39:09 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
@@ -1656,29 +1656,29 @@ Stack trace:
 [24-Oct-2018 21:40:04 UTC] PHP Stack trace:
 [24-Oct-2018 21:40:04 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:40:04 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
-[24-Oct-2018 21:40:04 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
+[24-Oct-2018 21:40:04 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/laravel-roles-permissions-manager/bootstrap/../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/laravel-roles-permissions-manager/bootstrap/autoload.php on line 17
 [24-Oct-2018 21:40:04 UTC] PHP Stack trace:
 [24-Oct-2018 21:40:04 UTC] PHP   1. {main}() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:0
 [24-Oct-2018 21:40:04 UTC] PHP   2. require() /Users/lacike/www/laravel-roles-permissions-manager/public/index.php:22
 [25-Oct-2018 11:00:42 UTC] PHP Warning:  require(/Users/lacike/www/VueAdminPanel/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:00:42 UTC] PHP Stack trace:
 [25-Oct-2018 11:00:42 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
-[25-Oct-2018 11:00:42 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
+[25-Oct-2018 11:00:42 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:00:42 UTC] PHP Stack trace:
 [25-Oct-2018 11:00:42 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
 [25-Oct-2018 11:01:39 UTC] PHP Warning:  require(/Users/lacike/www/VueAdminPanel/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:01:39 UTC] PHP Stack trace:
 [25-Oct-2018 11:01:39 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
-[25-Oct-2018 11:01:39 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
+[25-Oct-2018 11:01:39 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:01:39 UTC] PHP Stack trace:
 [25-Oct-2018 11:01:39 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
 [25-Oct-2018 11:01:56 UTC] PHP Warning:  require(/Users/lacike/www/VueAdminPanel/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:01:56 UTC] PHP Stack trace:
 [25-Oct-2018 11:01:56 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
-[25-Oct-2018 11:01:56 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
+[25-Oct-2018 11:01:56 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/VueAdminPanel/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/VueAdminPanel/artisan on line 18
 [25-Oct-2018 11:01:56 UTC] PHP Stack trace:
 [25-Oct-2018 11:01:56 UTC] PHP   1. {main}() /Users/lacike/www/VueAdminPanel/artisan:0
-[12-Nov-2018 20:03:14 Europe/Bratislava] PHP Fatal [ERROR]:  Can't use method return value in write context in /Users/lacike/www/LVconsult-wizard/app/Http/Controllers/WizardController.php on line 85
+[12-Nov-2018 20:03:14 Europe/Bratislava] PHP Fatal [EROR]:  Can't use method return value in write context in /Users/lacike/www/LVconsult-wizard/app/Http/Controllers/WizardController.php on line 85
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP Stack trace:
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP   1. {main}() /Users/lacike/www/LVconsult-wizard/server.php:0
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP   2. require_once() /Users/lacike/www/LVconsult-wizard/server.php:21
@@ -1721,7 +1721,7 @@ Stack trace:
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP  39. spl_autoload_call() /Users/lacike/www/LVconsult-wizard/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP  40. Composer\Autoload\ClassLoader->loadClass() /Users/lacike/www/LVconsult-wizard/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
 [12-Nov-2018 20:03:14 Europe/Bratislava] PHP  41. Composer\Autoload\includeFile() /Users/lacike/www/LVconsult-wizard/vendor/composer/ClassLoader.php:322
-[12-Nov-2018 20:09:56 Europe/Bratislava] PHP Fatal [ERROR]:  Can't use method return value in write context in /Users/lacike/www/LVconsult-wizard/app/Http/Controllers/WizardController.php on line 85
+[12-Nov-2018 20:09:56 Europe/Bratislava] PHP Fatal [EROR]:  Can't use method return value in write context in /Users/lacike/www/LVconsult-wizard/app/Http/Controllers/WizardController.php on line 85
 [12-Nov-2018 20:09:56 Europe/Bratislava] PHP Stack trace:
 [12-Nov-2018 20:09:56 Europe/Bratislava] PHP   1. {main}() /Users/lacike/www/LVconsult-wizard/server.php:0
 [12-Nov-2018 20:09:56 Europe/Bratislava] PHP   2. require_once() /Users/lacike/www/LVconsult-wizard/server.php:21
@@ -1767,28 +1767,28 @@ Stack trace:
 [28-Nov-2018 22:54:16 UTC] PHP Warning:  require_once(public/index.php): failed to open stream: No such file or directory in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:16 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:16 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
-[28-Nov-2018 22:54:16 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
+[28-Nov-2018 22:54:16 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:16 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:16 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
 [28-Nov-2018 22:54:29 UTC] PHP Warning:  require_once(public/index.php): failed to open stream: No such file or directory in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:29 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:29 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
-[28-Nov-2018 22:54:29 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
+[28-Nov-2018 22:54:29 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:29 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:29 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
 [28-Nov-2018 22:54:42 UTC] PHP Warning:  require_once(public/index.php): failed to open stream: No such file or directory in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:42 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:42 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
-[28-Nov-2018 22:54:42 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
+[28-Nov-2018 22:54:42 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:42 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:42 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
 [28-Nov-2018 22:54:58 UTC] PHP Warning:  require_once(public/index.php): failed to open stream: No such file or directory in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:58 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:58 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
-[28-Nov-2018 22:54:58 UTC] PHP Fatal [ERROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
+[28-Nov-2018 22:54:58 UTC] PHP Fatal [EROR]:  require_once(): Failed opening required 'public/index.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/index.php on line 11
 [28-Nov-2018 22:54:58 UTC] PHP Stack trace:
 [28-Nov-2018 22:54:58 UTC] PHP   1. {main}() /Users/lacike/www/index.php:0
-[14-Dec-2018 08:49:21 UTC] PHP Fatal [ERROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
+[14-Dec-2018 08:49:21 UTC] PHP Fatal [EROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
 Stack trace:
 #0 [internal function]: {closure}(8, 'fwrite(): send ...', '/Users/lacike/....', 23, Array)
 #1 /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php(23): fwrite(Resource id #3, 'CRITICAL  Error...')
@@ -1797,7 +1797,7 @@ Stack trace:
 #4 [internal function]: {closure}(Object(ErrorException))
 #5 {main}
   thrown in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php on line 23
-[21-Jan-2019 21:20:58 UTC] PHP Fatal [ERROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
+[21-Jan-2019 21:20:58 UTC] PHP Fatal [EROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
 Stack trace:
 #0 [internal function]: {closure}(8, 'fwrite(): send ...', '/Users/lacike/....', 23, Array)
 #1 /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php(23): fwrite(Resource id #3, 'CRITICAL  Error...')
@@ -1809,25 +1809,25 @@ Stack trace:
 [22-Jan-2019 19:28:46 UTC] PHP Warning:  require(/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:28:46 UTC] PHP Stack trace:
 [22-Jan-2019 19:28:46 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
-[22-Jan-2019 19:28:46 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
+[22-Jan-2019 19:28:46 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:28:46 UTC] PHP Stack trace:
 [22-Jan-2019 19:28:46 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
 [22-Jan-2019 19:29:16 UTC] PHP Warning:  require(/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:29:16 UTC] PHP Stack trace:
 [22-Jan-2019 19:29:16 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
-[22-Jan-2019 19:29:16 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
+[22-Jan-2019 19:29:16 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:29:16 UTC] PHP Stack trace:
 [22-Jan-2019 19:29:16 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
 [22-Jan-2019 19:29:42 UTC] PHP Warning:  require(/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:29:42 UTC] PHP Stack trace:
 [22-Jan-2019 19:29:42 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
-[22-Jan-2019 19:29:42 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
+[22-Jan-2019 19:29:42 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:29:42 UTC] PHP Stack trace:
 [22-Jan-2019 19:29:42 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
 [22-Jan-2019 19:34:04 UTC] PHP Warning:  require(/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:34:04 UTC] PHP Stack trace:
 [22-Jan-2019 19:34:04 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
-[22-Jan-2019 19:34:04 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
+[22-Jan-2019 19:34:04 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/Downloads/admin_bizpage/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/Downloads/admin_bizpage/artisan on line 18
 [22-Jan-2019 19:34:04 UTC] PHP Stack trace:
 [22-Jan-2019 19:34:04 UTC] PHP   1. {main}() /Users/lacike/Downloads/admin_bizpage/artisan:0
 [23-Jan-2019 22:23:29 UTC] PHP Warning:  Uncaught ErrorException: require(/Users/lacike/www/admintest/config/menu.php): failed to open stream: No such file or directory in /Users/lacike/www/admintest/vendor/acacha/admin-lte-template-laravel/src/Providers/AdminLTETemplateServiceProvider.php:291
@@ -1854,7 +1854,7 @@ Stack trace:
 [23-Jan-2019 22:23:29 UTC] PHP  14. call_user_func_array:{/Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29}() /Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29
 [23-Jan-2019 22:23:29 UTC] PHP  15. Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider->boot() /Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29
 [23-Jan-2019 22:23:29 UTC] PHP  16. Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider->enableSpatieMenu() /Users/lacike/www/admintest/vendor/acacha/admin-lte-template-laravel/src/Providers/AdminLTETemplateServiceProvider.php:111
-[23-Jan-2019 22:23:29 UTC] PHP Fatal [ERROR]:  Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::enableSpatieMenu(): Failed opening required '/Users/lacike/www/admintest/config/menu.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/admintest/vendor/acacha/admin-lte-template-laravel/src/Providers/AdminLTETemplateServiceProvider.php on line 291
+[23-Jan-2019 22:23:29 UTC] PHP Fatal [EROR]:  Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::enableSpatieMenu(): Failed opening required '/Users/lacike/www/admintest/config/menu.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/admintest/vendor/acacha/admin-lte-template-laravel/src/Providers/AdminLTETemplateServiceProvider.php on line 291
 [23-Jan-2019 22:23:29 UTC] PHP Stack trace:
 [23-Jan-2019 22:23:29 UTC] PHP   1. {main}() /Users/lacike/www/admintest/artisan:0
 [23-Jan-2019 22:23:29 UTC] PHP   2. App\Console\Kernel->handle() /Users/lacike/www/admintest/artisan:37
@@ -1872,7 +1872,7 @@ Stack trace:
 [23-Jan-2019 22:23:29 UTC] PHP  14. call_user_func_array:{/Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29}() /Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29
 [23-Jan-2019 22:23:29 UTC] PHP  15. Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider->boot() /Users/lacike/www/admintest/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:29
 [23-Jan-2019 22:23:29 UTC] PHP  16. Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider->enableSpatieMenu() /Users/lacike/www/admintest/vendor/acacha/admin-lte-template-laravel/src/Providers/AdminLTETemplateServiceProvider.php:111
-[23-Jan-2019 23:36:44 UTC] PHP Fatal [ERROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
+[23-Jan-2019 23:36:44 UTC] PHP Fatal [EROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
 Stack trace:
 #0 [internal function]: {closure}(8, 'fwrite(): send ...', '/Users/lacike/....', 23, Array)
 #1 /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php(23): fwrite(Resource id #3, 'CRITICAL  Error...')
@@ -1881,76 +1881,76 @@ Stack trace:
 #4 [internal function]: {closure}(Object(ErrorException))
 #5 {main}
   thrown in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php on line 23
-[08-Feb-2019 14:01:50 UTC] PHP Parse [ERROR]:  syntax [ERROR], unexpected end of file in /Users/lacike/www/crawlers/search/search.php on line 266
-[08-Feb-2019 15:11:22 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 14:01:50 UTC] PHP Parse [EROR]:  syntax [EROR], unexpected end of file in /Users/lacike/www/crawlers/search/search.php on line 266
+[08-Feb-2019 15:11:22 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 /Users/lacike/www/crawlers/crawler/crawl.php(14): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:11:34 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:11:34 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 /Users/lacike/www/crawlers/crawler/crawl.php(14): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:11:40 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:11:40 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 /Users/lacike/www/crawlers/crawler/stats.php(30): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:15:07 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:15:07 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 /Users/lacike/www/crawlers/crawler/stats.php(30): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:15:10 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:15:10 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 /Users/lacike/www/crawlers/crawler/crawl.php(14): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:15:14 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:15:14 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 15:17:25 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
+[08-Feb-2019 15:17:25 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_connect() in /Users/lacike/www/crawlers/crawler/config.php:46
 Stack trace:
 #0 {main}
   thrown in /Users/lacike/www/crawlers/crawler/config.php on line 46
-[08-Feb-2019 16:06:01 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:06:01 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:07:47 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:07:47 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:08:32 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:08:32 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:09:24 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:09:24 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:10:02 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:10:02 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:11:22 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:11:22 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:17:51 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:17:51 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:17:54 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:17:54 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
@@ -1960,7 +1960,7 @@ Stack trace:
 [08-Feb-2019 16:20:43 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:0
 [08-Feb-2019 16:20:43 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:10
 [08-Feb-2019 16:20:43 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider-1.3.6/include/commonfuncs.php:182
-[08-Feb-2019 16:20:43 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:20:43 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/search.php(39): require_once()
 #1 {main}
@@ -1970,7 +1970,7 @@ Stack trace:
 [08-Feb-2019 16:20:46 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:0
 [08-Feb-2019 16:20:46 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:10
 [08-Feb-2019 16:20:46 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider-1.3.6/include/commonfuncs.php:182
-[08-Feb-2019 16:20:46 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:20:46 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/search.php(39): require_once()
 #1 {main}
@@ -1980,32 +1980,32 @@ Stack trace:
 [08-Feb-2019 16:22:02 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:0
 [08-Feb-2019 16:22:02 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider-1.3.6/search.php:10
 [08-Feb-2019 16:22:02 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider-1.3.6/include/commonfuncs.php:182
-[08-Feb-2019 16:22:02 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:22:02 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/search.php(39): require_once()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:22:10 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:22:10 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(14): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:26:15 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:26:15 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:26:17 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:26:17 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:27:06 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:27:06 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php on line 10
-[08-Feb-2019 16:27:09 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
+[08-Feb-2019 16:27:09 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider-1.3.6/settings/database.php:10
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider-1.3.6/admin/install.php(13): include()
 #1 {main}
@@ -2018,12 +2018,12 @@ Stack trace:
 [09-Feb-2019 11:31:43 UTC] PHP Stack trace:
 [09-Feb-2019 11:31:43 UTC] PHP   1. {main}() /Applications/MAMP/bin/mamp/feed/fetchFeed.php:0
 [09-Feb-2019 11:31:43 UTC] PHP   2. file_get_contents() /Applications/MAMP/bin/mamp/feed/fetchFeed.php:20
-[09-Feb-2019 11:31:46 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:31:46 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/install.php(13): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/settings/database.php on line 11
-[09-Feb-2019 11:32:04 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:32:04 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/install.php(13): include()
 #1 {main}
@@ -2036,7 +2036,7 @@ Stack trace:
 [09-Feb-2019 11:37:26 UTC] PHP Stack trace:
 [09-Feb-2019 11:37:26 UTC] PHP   1. {main}() /Applications/MAMP/bin/mamp/feed/fetchFeed.php:0
 [09-Feb-2019 11:37:26 UTC] PHP   2. file_get_contents() /Applications/MAMP/bin/mamp/feed/fetchFeed.php:20
-[09-Feb-2019 11:37:26 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:37:26 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/install.php(13): include()
 #1 {main}
@@ -2054,7 +2054,7 @@ Stack trace:
 [09-Feb-2019 11:48:58 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:48:58 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:48:58 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:48:58 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:48:58 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2064,7 +2064,7 @@ Stack trace:
 [09-Feb-2019 11:49:08 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:49:08 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:49:08 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:49:08 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:49:08 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2074,7 +2074,7 @@ Stack trace:
 [09-Feb-2019 11:49:42 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:49:42 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:49:42 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:49:42 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:49:42 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2084,7 +2084,7 @@ Stack trace:
 [09-Feb-2019 11:49:43 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:49:43 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:49:43 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:49:43 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:49:43 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2094,7 +2094,7 @@ Stack trace:
 [09-Feb-2019 11:49:44 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:49:44 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:49:44 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:49:44 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:49:44 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2104,7 +2104,7 @@ Stack trace:
 [09-Feb-2019 11:49:45 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:49:45 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:49:45 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:49:45 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:49:45 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2114,7 +2114,7 @@ Stack trace:
 [09-Feb-2019 11:50:46 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:50:46 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:50:46 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:50:46 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:50:46 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2124,7 +2124,7 @@ Stack trace:
 [09-Feb-2019 11:50:57 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:50:57 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:50:57 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:50:57 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:50:57 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2134,7 +2134,7 @@ Stack trace:
 [09-Feb-2019 11:51:10 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 11:51:10 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 11:51:10 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 11:51:10 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 11:51:10 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2144,7 +2144,7 @@ Stack trace:
 [09-Feb-2019 15:56:32 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 15:56:32 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 15:56:32 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 15:56:32 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
+[09-Feb-2019 15:56:32 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_pconnect() in /Users/lacike/www/crawlers/sphider/settings/database.php:11
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2154,7 +2154,7 @@ Stack trace:
 [09-Feb-2019 16:14:56 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 16:14:56 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 16:14:56 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 16:14:56 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_select_db() in /Users/lacike/www/crawlers/sphider/settings/database.php:15
+[09-Feb-2019 16:14:56 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_select_db() in /Users/lacike/www/crawlers/sphider/settings/database.php:15
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2164,7 +2164,7 @@ Stack trace:
 [09-Feb-2019 16:16:43 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 16:16:43 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 16:16:43 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 16:16:43 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_select_db() in /Users/lacike/www/crawlers/sphider/settings/database.php:15
+[09-Feb-2019 16:16:43 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_select_db() in /Users/lacike/www/crawlers/sphider/settings/database.php:15
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(39): require_once()
 #1 {main}
@@ -2204,7 +2204,7 @@ Stack trace:
 [09-Feb-2019 16:20:54 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 16:20:54 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 16:20:54 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 16:20:54 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:21
+[09-Feb-2019 16:20:54 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:21
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(83): sql_fetch_all('SELECT count(*)...')
 #1 {main}
@@ -2214,208 +2214,208 @@ Stack trace:
 [09-Feb-2019 16:25:53 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 16:25:53 UTC] PHP   2. include() /Users/lacike/www/crawlers/sphider/search.php:10
 [09-Feb-2019 16:25:53 UTC] PHP   3. each() /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:182
-[09-Feb-2019 16:25:53 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:21
+[09-Feb-2019 16:25:53 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/include/commonfuncs.php:21
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/search.php(83): sql_fetch_all('SELECT count(*)...')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/include/commonfuncs.php on line 21
-[09-Feb-2019 16:26:10 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:26:10 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:26:14 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
+[09-Feb-2019 16:26:14 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 122
-[09-Feb-2019 16:26:16 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:26:16 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:26:18 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:26:18 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:26:20 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
+[09-Feb-2019 16:26:20 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 122
-[09-Feb-2019 16:26:21 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:26:21 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:26:22 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
+[09-Feb-2019 16:26:22 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1226): cleanForm()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 961
-[09-Feb-2019 16:26:23 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:26:23 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:26:26 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
+[09-Feb-2019 16:26:26 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1243): statisticsForm('')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1005
-[09-Feb-2019 16:26:28 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:73
+[09-Feb-2019 16:26:28 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:73
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1280): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/db_main.php on line 73
-[09-Feb-2019 16:27:24 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:73
+[09-Feb-2019 16:27:24 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:73
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1280): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/db_main.php on line 73
-[09-Feb-2019 16:31:46 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
+[09-Feb-2019 16:31:46 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1280): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/db_main.php on line 74
-[09-Feb-2019 16:31:55 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
+[09-Feb-2019 16:31:55 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1243): statisticsForm('')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1005
-[09-Feb-2019 16:31:56 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
+[09-Feb-2019 16:31:56 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1280): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/db_main.php on line 74
-[09-Feb-2019 16:31:58 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:31:58 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:31:58 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:31:58 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:31:59 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
+[09-Feb-2019 16:31:59 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:122
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 122
-[09-Feb-2019 16:32:01 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:32:01 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:32:19 UTC] PHP Fatal [ERROR]:  Cannot 'break' 2 levels in /Users/lacike/www/crawlers/sphider/admin/spiderfuncs.php on line 736
+[09-Feb-2019 16:32:19 UTC] PHP Fatal [EROR]:  Cannot 'break' 2 levels in /Users/lacike/www/crawlers/sphider/admin/spiderfuncs.php on line 736
 [09-Feb-2019 16:32:19 UTC] PHP Stack trace:
 [09-Feb-2019 16:32:19 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/admin/spider.php:0
-[09-Feb-2019 16:34:34 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:34:34 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:34:37 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_[ERROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
+[09-Feb-2019 16:34:37 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_[EROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 123
-[09-Feb-2019 16:34:39 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:34:39 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:34:40 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:34:40 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:34:41 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
+[09-Feb-2019 16:34:41 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1226): cleanForm()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 961
-[09-Feb-2019 16:34:42 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:34:42 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:34:44 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
+[09-Feb-2019 16:34:44 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:1005
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1243): statisticsForm('')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1005
-[09-Feb-2019 16:34:45 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
+[09-Feb-2019 16:34:45 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_num_rows() in /Users/lacike/www/crawlers/sphider/admin/db_main.php:74
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1280): include()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/db_main.php on line 74
-[09-Feb-2019 16:38:19 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:38:19 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:38:21 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:38:21 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:38:43 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_[ERROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
+[09-Feb-2019 16:38:43 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_[EROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 123
-[09-Feb-2019 16:38:55 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
+[09-Feb-2019 16:38:55 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:592
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 592
-[09-Feb-2019 16:39:01 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
+[09-Feb-2019 16:39:01 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_query() in /Users/lacike/www/crawlers/sphider/admin/admin.php:961
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1226): cleanForm()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 961
-[09-Feb-2019 16:41:13 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:41:13 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:41:50 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:41:50 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:42:00 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:42:00 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:42:30 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_[ERROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
+[09-Feb-2019 16:42:30 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_[EROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 123
-[09-Feb-2019 16:42:32 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_[ERROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:593
+[09-Feb-2019 16:42:32 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_[EROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:593
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1293): getStatistics()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 593
-[09-Feb-2019 16:42:43 UTC] PHP Fatal [ERROR]:  Cannot 'break' 2 levels in /Users/lacike/www/crawlers/sphider/admin/spiderfuncs.php on line 736
+[09-Feb-2019 16:42:43 UTC] PHP Fatal [EROR]:  Cannot 'break' 2 levels in /Users/lacike/www/crawlers/sphider/admin/spiderfuncs.php on line 736
 [09-Feb-2019 16:42:43 UTC] PHP Stack trace:
 [09-Feb-2019 16:42:43 UTC] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/admin/spider.php:0
-[09-Feb-2019 16:43:21 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:43:21 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 378
-[09-Feb-2019 16:43:24 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_[ERROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
+[09-Feb-2019 16:43:24 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_[EROR]() in /Users/lacike/www/crawlers/sphider/admin/admin.php:123
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1199): list_cats(0, 0, 'white', '')
 #1 {main}
   thrown in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 123
-[09-Feb-2019 16:43:25 UTC] PHP Fatal [ERROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
+[09-Feb-2019 16:43:25 UTC] PHP Fatal [EROR]:  Uncaught ArgumentCountError: Too few arguments to function showsites(), 0 passed in /Users/lacike/www/crawlers/sphider/admin/admin.php on line 1166 and exactly 1 expected in /Users/lacike/www/crawlers/sphider/admin/admin.php:378
 Stack trace:
 #0 /Users/lacike/www/crawlers/sphider/admin/admin.php(1166): showsites()
 #1 {main}
@@ -6914,7 +6914,7 @@ Stack trace:
 [09-Feb-2019 19:13:15 Europe/Berlin] PHP   3. index_url() /Users/lacike/www/crawlers/sphider/admin/spider.php:524
 [09-Feb-2019 19:13:15 Europe/Berlin] PHP   4. clean_file() /Users/lacike/www/crawlers/sphider/admin/spider.php:250
 [09-Feb-2019 19:13:15 Europe/Berlin] PHP   5. preg_replace() /Users/lacike/www/crawlers/sphider/admin/spiderfuncs.php:612
-[09-Feb-2019 19:53:23 Europe/Berlin] PHP Parse [ERROR]:  syntax [ERROR], unexpected '?' in /Users/lacike/www/shop-reviews/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 242
+[09-Feb-2019 19:53:23 Europe/Berlin] PHP Parse [EROR]:  syntax [EROR], unexpected '?' in /Users/lacike/www/shop-reviews/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 242
 [09-Feb-2019 19:53:23 Europe/Berlin] PHP Stack trace:
 [09-Feb-2019 19:53:23 Europe/Berlin] PHP   1. {main}() /Users/lacike/www/shop-reviews/public/index.php:0
 [09-Feb-2019 19:53:23 Europe/Berlin] PHP   2. require() /Users/lacike/www/shop-reviews/public/index.php:24
@@ -6930,7 +6930,7 @@ Stack trace:
 [09-Feb-2019 18:53:50 UTC] PHP   1. {main}() /Users/lacike/.Trash/sphider/search.php:0
 [09-Feb-2019 18:53:50 UTC] PHP   2. sql_fetch_all() /Users/lacike/.Trash/sphider/search.php:83
 [09-Feb-2019 18:53:50 UTC] PHP   3. mysqli_query() /Users/lacike/.Trash/sphider/include/commonfuncs.php:21
-[09-Feb-2019 18:53:50 UTC] PHP Fatal [ERROR]:  Uncaught Error: Call to undefined function mysql_errno() in /Users/lacike/.Trash/sphider/include/commonfuncs.php:22
+[09-Feb-2019 18:53:50 UTC] PHP Fatal [EROR]:  Uncaught Error: Call to undefined function mysql_errno() in /Users/lacike/.Trash/sphider/include/commonfuncs.php:22
 Stack trace:
 #0 /Users/lacike/.Trash/sphider/search.php(83): sql_fetch_all('SELECT count(*)...')
 #1 {main}
@@ -6990,7 +6990,7 @@ Stack trace:
 [09-Feb-2019 19:56:05 Europe/Berlin] PHP   1. {main}() /Users/lacike/www/crawlers/sphider/search.php:0
 [09-Feb-2019 19:56:05 Europe/Berlin] PHP   2. require_once() /Users/lacike/www/crawlers/sphider/search.php:39
 [09-Feb-2019 19:56:05 Europe/Berlin] PHP   3. mysql_pconnect() /Users/lacike/www/crawlers/sphider/settings/database.php:10
-[09-Feb-2019 19:49:47 UTC] PHP Fatal [ERROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
+[09-Feb-2019 19:49:47 UTC] PHP Fatal [EROR]:  Uncaught ErrorException: fwrite(): send of 2132 bytes failed with errno=32 Broken pipe in /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php:23
 Stack trace:
 #0 [internal function]: {closure}(8, 'fwrite(): send ...', '/Users/lacike/....', 23, Array)
 #1 /Users/lacike/.vscode/extensions/felixfbecker.php-intellisense-2.3.4/vendor/felixfbecker/language-server/src/StderrLogger.php(23): fwrite(Resource id #3, 'CRITICAL  Error...')
@@ -7025,26 +7025,26 @@ Stack trace:
 [09-May-2019 13:21:44 UTC] PHP Warning:  require(/Users/lacike/www/Eshop/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:44 UTC] PHP Stack trace:
 [09-May-2019 13:21:44 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
-[09-May-2019 13:21:44 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
+[09-May-2019 13:21:44 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:44 UTC] PHP Stack trace:
 [09-May-2019 13:21:44 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
 [09-May-2019 13:21:49 UTC] PHP Warning:  require(/Users/lacike/www/Eshop/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:49 UTC] PHP Stack trace:
 [09-May-2019 13:21:49 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
-[09-May-2019 13:21:49 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
+[09-May-2019 13:21:49 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:49 UTC] PHP Stack trace:
 [09-May-2019 13:21:49 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
 [09-May-2019 13:21:58 UTC] PHP Warning:  require(/Users/lacike/www/Eshop/vendor/autoload.php): failed to open stream: No such file or directory in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:58 UTC] PHP Stack trace:
 [09-May-2019 13:21:58 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
-[09-May-2019 13:21:58 UTC] PHP Fatal [ERROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
+[09-May-2019 13:21:58 UTC] PHP Fatal [EROR]:  require(): Failed opening required '/Users/lacike/www/Eshop/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/lacike/www/Eshop/artisan on line 18
 [09-May-2019 13:21:58 UTC] PHP Stack trace:
 [09-May-2019 13:21:58 UTC] PHP   1. {main}() /Users/lacike/www/Eshop/artisan:0
-[22-May-2019 19:55:28 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
-[22-May-2019 19:56:29 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
-[22-May-2019 19:56:31 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
-[22-May-2019 19:57:21 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
-[22-May-2019 19:58:59 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
-[22-May-2019 20:00:02 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
-[22-May-2019 20:00:04 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
-[22-May-2019 20:00:44 UTC] PHP Fatal [ERROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 68
+[22-May-2019 19:55:28 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
+[22-May-2019 19:56:29 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
+[22-May-2019 19:56:31 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
+[22-May-2019 19:57:21 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 66
+[22-May-2019 19:58:59 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
+[22-May-2019 20:00:02 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
+[22-May-2019 20:00:04 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 67
+[22-May-2019 20:00:44 UTC] PHP Fatal [EROR]:  Cannot redeclare log() in /Users/lacike/PhpstormProjects/monitoring-test/monitoring.php on line 68
